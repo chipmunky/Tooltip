@@ -1,0 +1,8 @@
+/* chipmunkyTooltip */
+.chipmunkyTooltipWrapper { display:inline-block; width:0; height:0; vertical-align:middle; position:relative; overflow:visible; }
+.chipmunkyTooltipWrapper .chipmunkyTooltip { display:none; position:absolute; z-index:9999; top:-15px; right:-320px; width:300px; height:auto; background:rgba(0,0,0,.8); color:#fff; border-radius:5px; box-shadow:3px 3px 5px rgba(0,0,0,.3); }
+.chipmunkyTooltipWrapper .chipmunkyTooltip .content { position:relative; margin:10px; color:#fff; text-align:left; }
+.chipmunkyTooltipWrapper .chipmunkyTooltip .arrow { position:absolute; width:0; height:0; border:solid 6px transparent; }
+.chipmunkyTooltipWrapper .chipmunkyTooltip .arrow.above { border-bottom-color:rgba(0,0,0,.8); }
+.chipmunkyTooltipWrapper .chipmunkyTooltip .arrow.below { border-top-color:rgba(0,0,0,.8); }
+.chipmunkyTooltipWrapper .chipmunkyTooltip.floating.floatleft:before { left:auto; right:-6px; border-right:transparent; border-left:solid 6px rgba(0,0,0,.8); }
